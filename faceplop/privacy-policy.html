@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FacePlop – Privacy Policy</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0d0d1a;
+      color: #dde1f0;
+      line-height: 1.75;
+      min-height: 100vh;
+    }
+    header {
+      background: linear-gradient(135deg, #1a0a30, #0d0d1a);
+      border-bottom: 1px solid #2a1a4a;
+      padding: 24px 20px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: #f7ebb0;
+      letter-spacing: 1px;
+    }
+    header p.subtitle {
+      font-size: 0.85rem;
+      color: #888;
+      margin-top: 4px;
+    }
+    .lang-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      padding: 16px 20px;
+      background: #12102a;
+      border-bottom: 1px solid #2a1a4a;
+    }
+    .lang-bar button {
+      background: #1e1640;
+      color: #aaa;
+      border: 1px solid #3a2a6a;
+      border-radius: 20px;
+      padding: 5px 14px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .lang-bar button.active,
+    .lang-bar button:hover {
+      background: #7a10d4;
+      color: #fff;
+      border-color: #9a30f4;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    .policy { display: none; }
+    .policy.active { display: block; }
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #c470ff;
+      margin: 36px 0 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #2a1a4a;
+    }
+    h2:first-child { margin-top: 0; }
+    p { margin-bottom: 12px; color: #ccd; }
+    ul {
+      margin: 8px 0 14px 20px;
+      color: #ccd;
+    }
+    ul li { margin-bottom: 6px; }
+    a { color: #7ad4ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .updated {
+      font-size: 0.78rem;
+      color: #666;
+      margin-bottom: 28px;
+    }
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 0.78rem;
+      color: #555;
+      border-top: 1px solid #1a1a2e;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>FacePlop</h1>
+  <p class="subtitle">Privacy Policy</p>
+</header>
+
+<div class="lang-bar">
+  <button onclick="showLang('en')" id="btn-en" class="active">English</button>
+  <button onclick="showLang('ja')" id="btn-ja">日本語</button>
+  <button onclick="showLang('zh')" id="btn-zh">中文</button>
+  <button onclick="showLang('ko')" id="btn-ko">한국어</button>
+  <button onclick="showLang('es')" id="btn-es">Español</button>
+  <button onclick="showLang('pt')" id="btn-pt">Português</button>
+  <button onclick="showLang('de')" id="btn-de">Deutsch</button>
+  <button onclick="showLang('fr')" id="btn-fr">Français</button>
+</div>
+
+<main>
+
+<!-- ========== JAPANESE ========== -->
+<div class="policy" id="policy-ja">
+  <p class="updated">最終更新日：2026年5月21日</p>
+
+  <h2>はじめに</h2>
+  <p>FacePlop（以下「本アプリ」）は、開発者が提供するiOS向けゲームアプリです。本プライバシーポリシーは、本アプリがどのような情報を収集し、どのように利用するかを説明します。</p>
+
+  <h2>収集する情報</h2>
+  <p>本アプリは以下の情報を収集または処理します。</p>
+  <ul>
+    <li><strong>写真ライブラリ：</strong>デッキ作成時にユーザーが選択した写真。これらはお使いのデバイス上にのみ保存され、外部サーバーには送信されません。</li>
+    <li><strong>利用状況データ：</strong>Firebase Analytics によりゲームの起動・終了・デッキ選択などの匿名化された操作データを収集します。</li>
+    <li><strong>クラッシュレポート：</strong>Firebase Crashlytics によりアプリのクラッシュ情報を収集し、品質改善に使用します。</li>
+    <li><strong>広告識別子：</strong>Google AdMob により、広告配信のためにデバイスの広告識別子（IDFA）が使用される場合があります。</li>
+  </ul>
+
+  <h2>情報の利用目的</h2>
+  <ul>
+    <li>アプリの安定性向上・不具合修正</li>
+    <li>ユーザー体験の改善</li>
+    <li>広告の表示</li>
+  </ul>
+
+  <h2>第三者サービス</h2>
+  <p>本アプリは以下の第三者サービスを使用しています。各サービスのプライバシーポリシーもご確認ください。</p>
+  <ul>
+    <li><a href="https://policies.google.com/privacy" target="_blank">Google AdMob / Firebase（Google LLC）</a></li>
+  </ul>
+
+  <h2>データの共有</h2>
+  <p>開発者は、ユーザーの個人データを第三者に販売することはありません。上記第三者サービスのみがそれぞれのポリシーに基づきデータを処理します。</p>
+
+  <h2>お子様のプライバシー</h2>
+  <p>本アプリは4歳以上を対象としており、全年齢にご利用いただけます。お子様がご利用の際は、保護者の監督のもとでのご使用をお勧めします。</p>
+
+  <h2>データの保持と削除</h2>
+  <p>デバイス内の写真データはアプリを削除することで消去されます。Firebase・AdMob のデータ保持期間については各社のポリシーをご参照ください。</p>
+
+  <h2>本ポリシーの変更</h2>
+  <p>本ポリシーは必要に応じて更新されます。重要な変更がある場合はアプリのアップデートを通じてお知らせします。</p>
+
+  <h2>お問い合わせ</h2>
+  <p>プライバシーに関するご質問は下記までお問い合わせください。<br>
+  <a href="https://x.com/ST_AppSupport" target="_blank">@ST_AppSupport on X</a></p>
+</div>
+
+<!-- ========== ENGLISH ========== -->
+<div class="policy active" id="policy-en">
+  <p class="updated">Last updated: May 21, 2026</p>
+
+  <h2>Introduction</h2>
+  <p>FacePlop (the "App") is an iOS game developed by the Developer. This Privacy Policy explains what information the App collects and how it is used.</p>
+
+  <h2>Information We Collect</h2>
+  <p>The App collects or processes the following types of information:</p>
+  <ul>
+    <li><strong>Photo Library:</strong> Photos selected by the user when creating a deck. These are stored only on your device and are never transmitted to external servers.</li>
+    <li><strong>Usage Data:</strong> Firebase Analytics collects anonymized data such as game launches, game-over events, and deck selections to help us improve the App.</li>
+    <li><strong>Crash Reports:</strong> Firebase Crashlytics collects crash information to help us fix bugs and improve stability.</li>
+    <li><strong>Advertising Identifier:</strong> Google AdMob may use your device's advertising identifier (IDFA) to serve relevant ads.</li>
+  </ul>
+
+  <h2>How We Use Information</h2>
+  <ul>
+    <li>To improve app stability and fix bugs</li>
+    <li>To improve the user experience</li>
+    <li>To display advertisements</li>
+  </ul>
+
+  <h2>Third-Party Services</h2>
+  <p>The App uses the following third-party services. Please review their privacy policies as well.</p>
+  <ul>
+    <li><a href="https://policies.google.com/privacy" target="_blank">Google AdMob / Firebase (Google LLC)</a></li>
+  </ul>
+
+  <h2>Data Sharing</h2>
+  <p>The Developer does not sell your personal data to any third party. Data is only processed by the third-party services listed above in accordance with their own policies.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>The App is rated 4+ and suitable for all ages. We recommend parental guidance for young children. We do not knowingly collect personal information beyond what is described in this policy.</p>
+
+  <h2>Data Retention and Deletion</h2>
+  <p>Photo data stored on your device is deleted when you uninstall the App. For data retained by Firebase and AdMob, please refer to Google's data retention policies.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>This policy may be updated from time to time. We will notify users of significant changes through app updates.</p>
+
+  <h2>Contact Us</h2>
+  <p>If you have any questions about this Privacy Policy, please contact us at:<br>
+  <a href="https://x.com/ST_AppSupport" target="_blank">@ST_AppSupport on X</a></p>
+</div>
+
+<!-- ========== CHINESE ========== -->
+<div class="policy" id="policy-zh">
+  <p class="updated">最后更新：2026年5月21日</p>
+
+  <h2>简介</h2>
+  <p>FacePlop（以下简称"本应用"）是由开发者开发的 iOS 游戏。本隐私政策说明本应用收集哪些信息以及如何使用这些信息。</p>
+
+  <h2>我们收集的信息</h2>
+  <ul>
+    <li><strong>相册：</strong>用户在创建卡组时选择的照片。这些照片仅存储在您的设备上，不会传输至外部服务器。</li>
+    <li><strong>使用数据：</strong>Firebase Analytics 收集匿名化的使用数据，例如游戏启动、结束和卡组选择。</li>
+    <li><strong>崩溃报告：</strong>Firebase Crashlytics 收集崩溃信息，用于修复错误和提高稳定性。</li>
+    <li><strong>广告标识符：</strong>Google AdMob 可能会使用您设备的广告标识符（IDFA）来投放相关广告。</li>
+  </ul>
+
+  <h2>信息使用目的</h2>
+  <ul>
+    <li>提升应用稳定性并修复错误</li>
+    <li>改善用户体验</li>
+    <li>展示广告</li>
+  </ul>
+
+  <h2>第三方服务</h2>
+  <ul>
+    <li><a href="https://policies.google.com/privacy" target="_blank">Google AdMob / Firebase（Google LLC）</a></li>
+  </ul>
+
+  <h2>数据共享</h2>
+  <p>开发者不会将您的个人数据出售给任何第三方。数据仅由上述第三方服务根据其各自政策进行处理。</p>
+
+  <h2>儿童隐私</h2>
+  <p>本应用适合4岁及以上用户使用，适合所有年龄段。建议儿童在家长监督下使用。</p>
+
+  <h2>数据保留与删除</h2>
+  <p>卸载本应用后，存储在设备上的照片数据将被删除。有关 Firebase 和 AdMob 的数据保留政策，请参阅 Google 的相关规定。</p>
+
+  <h2>政策变更</h2>
+  <p>本政策可能会不时更新。重大变更将通过应用更新通知用户。</p>
+
+  <h2>联系我们</h2>
+  <p><a href="https://x.com/ST_AppSupport" target="_blank">@ST_AppSupport on X</a></p>
+</div>
+
+<!-- ========== KOREAN ========== -->
+<div class="policy" id="policy-ko">
+  <p class="updated">최종 업데이트: 2026년 5월 21일</p>
+
+  <h2>소개</h2>
+  <p>FacePlop(이하 "앱")은 개발자가 개발한 iOS 게임입니다. 본 개인정보 처리방침은 앱이 수집하는 정보와 사용 방법을 설명합니다.</p>
+
+  <h2>수집하는 정보</h2>
+  <ul>
+    <li><strong>사진 라이브러리:</strong> 덱 생성 시 사용자가 선택한 사진. 이 사진들은 기기에만 저장되며 외부 서버로 전송되지 않습니다.</li>
+    <li><strong>사용 데이터:</strong> Firebase Analytics가 게임 시작, 종료, 덱 선택 등의 익명화된 데이터를 수집합니다.</li>
+    <li><strong>크래시 보고서:</strong> Firebase Crashlytics가 오류 수정 및 안정성 향상을 위해 충돌 정보를 수집합니다.</li>
+    <li><strong>광고 식별자:</strong> Google AdMob이 관련 광고를 제공하기 위해 기기의 광고 식별자(IDFA)를 사용할 수 있습니다.</li>
+  </ul>
+
+  <h2>정보 이용 목적</h2>
+  <ul>
+    <li>앱 안정성 향상 및 버그 수정</li>
+    <li>사용자 경험 개선</li>
+    <li>광고 표시</li>
+  </ul>
+
+  <h2>제3자 서비스</h2>
+  <ul>
+    <li><a href="https://policies.google.com/privacy" target="_blank">Google AdMob / Firebase (Google LLC)</a></li>
+  </ul>
+
+  <h2>데이터 공유</h2>
+  <p>개발자는 귀하의 개인 데이터를 제3자에게 판매하지 않습니다. 데이터는 위에 나열된 제3자 서비스에 의해서만 각자의 정책에 따라 처리됩니다.</p>
+
+  <h2>아동 개인정보 보호</h2>
+  <p>본 앱은 4세 이상을 대상으로 하며 모든 연령대에 적합합니다. 어린 자녀가 이용하는 경우 보호자의 지도를 권장합니다.</p>
+
+  <h2>데이터 보존 및 삭제</h2>
+  <p>앱을 삭제하면 기기에 저장된 사진 데이터가 삭제됩니다. Firebase 및 AdMob의 데이터 보존 정책은 Google 정책을 참조하십시오.</p>
+
+  <h2>정책 변경</h2>
+  <p>본 정책은 수시로 업데이트될 수 있습니다. 중요한 변경 사항은 앱 업데이트를 통해 알려드립니다.</p>
+
+  <h2>문의</h2>
+  <p><a href="https://x.com/ST_AppSupport" target="_blank">@ST_AppSupport on X</a></p>
+</div>
+
+<!-- ========== SPANISH ========== -->
+<div class="policy" id="policy-es">
+  <p class="updated">Última actualización: 21 de mayo de 2026</p>
+
+  <h2>Introducción</h2>
+  <p>FacePlop (la "App") es un juego para iOS desarrollado por el Desarrollador. Esta Política de Privacidad explica qué información recopila la App y cómo se utiliza.</p>
+
+  <h2>Información que recopilamos</h2>
+  <ul>
+    <li><strong>Biblioteca de fotos:</strong> Las fotos seleccionadas por el usuario al crear un mazo. Se almacenan únicamente en su dispositivo y nunca se transmiten a servidores externos.</li>
+    <li><strong>Datos de uso:</strong> Firebase Analytics recopila datos anónimos como inicios de sesión, finales de partida y selecciones de mazo.</li>
+    <li><strong>Informes de fallos:</strong> Firebase Crashlytics recopila información sobre fallos para corregir errores y mejorar la estabilidad.</li>
+    <li><strong>Identificador publicitario:</strong> Google AdMob puede usar el identificador publicitario (IDFA) de su dispositivo para mostrar anuncios relevantes.</li>
+  </ul>
+
+  <h2>Uso de la información</h2>
+  <ul>
+    <li>Mejorar la estabilidad y corregir errores</li>
+    <li>Mejorar la experiencia del usuario</li>
+    <li>Mostrar publicidad</li>
+  </ul>
+
+  <h2>Servicios de terceros</h2>
+  <ul>
+    <li><a href="https://policies.google.com/privacy" target="_blank">Google AdMob / Firebase (Google LLC)</a></li>
+  </ul>
+
+  <h2>Compartir datos</h2>
+  <p>El Desarrollador no vende sus datos personales a terceros. Los datos son procesados únicamente por los servicios de terceros indicados, según sus propias políticas.</p>
+
+  <h2>Privacidad infantil</h2>
+  <p>La App tiene clasificación 4+ y es apta para todas las edades. Recomendamos supervisión parental para niños pequeños.</p>
+
+  <h2>Retención y eliminación de datos</h2>
+  <p>Los datos de fotos almacenados en su dispositivo se eliminan al desinstalar la App. Consulte las políticas de Google para los datos de Firebase y AdMob.</p>
+
+  <h2>Cambios en esta política</h2>
+  <p>Esta política puede actualizarse periódicamente. Los cambios significativos se notificarán a través de actualizaciones de la App.</p>
+
+  <h2>Contacto</h2>
+  <p><a href="https://x.com/ST_AppSupport" target="_blank">@ST_AppSupport on X</a></p>
+</div>
+
+<!-- ========== PORTUGUESE ========== -->
+<div class="policy" id="policy-pt">
+  <p class="updated">Última atualização: 21 de maio de 2026</p>
+
+  <h2>Introdução</h2>
+  <p>FacePlop (o "App") é um jogo para iOS desenvolvido pelo Desenvolvedor. Esta Política de Privacidade explica quais informações o App coleta e como são utilizadas.</p>
+
+  <h2>Informações que coletamos</h2>
+  <ul>
+    <li><strong>Biblioteca de fotos:</strong> Fotos selecionadas pelo usuário ao criar um baralho. Armazenadas apenas no dispositivo, nunca transmitidas para servidores externos.</li>
+    <li><strong>Dados de uso:</strong> O Firebase Analytics coleta dados anônimos como inícios de jogo, fim de partida e seleções de baralho.</li>
+    <li><strong>Relatórios de falhas:</strong> O Firebase Crashlytics coleta informações de falhas para corrigir erros e melhorar a estabilidade.</li>
+    <li><strong>Identificador de publicidade:</strong> O Google AdMob pode usar o identificador de publicidade (IDFA) do seu dispositivo para exibir anúncios relevantes.</li>
+  </ul>
+
+  <h2>Como usamos as informações</h2>
+  <ul>
+    <li>Melhorar a estabilidade e corrigir erros</li>
+    <li>Melhorar a experiência do usuário</li>
+    <li>Exibir publicidade</li>
+  </ul>
+
+  <h2>Serviços de terceiros</h2>
+  <ul>
+    <li><a href="https://policies.google.com/privacy" target="_blank">Google AdMob / Firebase (Google LLC)</a></li>
+  </ul>
+
+  <h2>Compartilhamento de dados</h2>
+  <p>O Desenvolvedor não vende seus dados pessoais a terceiros. Os dados são processados apenas pelos serviços de terceiros listados, de acordo com suas próprias políticas.</p>
+
+  <h2>Privacidade infantil</h2>
+  <p>O App tem classificação 4+ e é adequado para todas as idades. Recomendamos supervisão parental para crianças pequenas.</p>
+
+  <h2>Retenção e exclusão de dados</h2>
+  <p>Os dados de fotos armazenados no dispositivo são excluídos ao desinstalar o App. Consulte as políticas do Google para dados do Firebase e AdMob.</p>
+
+  <h2>Alterações nesta política</h2>
+  <p>Esta política pode ser atualizada periodicamente. Alterações significativas serão notificadas por meio de atualizações do App.</p>
+
+  <h2>Contato</h2>
+  <p><a href="https://x.com/ST_AppSupport" target="_blank">@ST_AppSupport on X</a></p>
+</div>
+
+<!-- ========== GERMAN ========== -->
+<div class="policy" id="policy-de">
+  <p class="updated">Zuletzt aktualisiert: 21. Mai 2026</p>
+
+  <h2>Einleitung</h2>
+  <p>FacePlop (die „App") ist ein iOS-Spiel, das vom Entwickler entwickelt wurde. Diese Datenschutzrichtlinie erläutert, welche Informationen die App erfasst und wie diese verwendet werden.</p>
+
+  <h2>Erfasste Informationen</h2>
+  <ul>
+    <li><strong>Fotobibliothek:</strong> Vom Nutzer beim Erstellen eines Decks ausgewählte Fotos. Diese werden ausschließlich auf dem Gerät gespeichert und niemals an externe Server übertragen.</li>
+    <li><strong>Nutzungsdaten:</strong> Firebase Analytics erfasst anonymisierte Daten wie Spielstarts, Spielende und Deck-Auswahl.</li>
+    <li><strong>Absturzberichte:</strong> Firebase Crashlytics erfasst Absturzinformationen zur Fehlerbehebung und Stabilitätsverbesserung.</li>
+    <li><strong>Werbekennung:</strong> Google AdMob kann die Werbekennung (IDFA) Ihres Geräts verwenden, um relevante Werbung anzuzeigen.</li>
+  </ul>
+
+  <h2>Verwendung der Informationen</h2>
+  <ul>
+    <li>Verbesserung der App-Stabilität und Fehlerbehebung</li>
+    <li>Verbesserung der Nutzererfahrung</li>
+    <li>Anzeige von Werbung</li>
+  </ul>
+
+  <h2>Drittanbieterdienste</h2>
+  <ul>
+    <li><a href="https://policies.google.com/privacy" target="_blank">Google AdMob / Firebase (Google LLC)</a></li>
+  </ul>
+
+  <h2>Datenweitergabe</h2>
+  <p>Der Entwickler verkauft Ihre persönlichen Daten nicht an Dritte. Daten werden nur von den aufgeführten Drittanbietern gemäß deren eigenen Richtlinien verarbeitet.</p>
+
+  <h2>Datenschutz für Kinder</h2>
+  <p>Die App ist ab 4 Jahren freigegeben und für alle Altersgruppen geeignet. Für jüngere Kinder empfehlen wir elterliche Aufsicht.</p>
+
+  <h2>Datenspeicherung und -löschung</h2>
+  <p>Auf dem Gerät gespeicherte Fotodaten werden beim Deinstallieren der App gelöscht. Informationen zur Datenspeicherung bei Firebase und AdMob finden Sie in Googles Datenschutzrichtlinien.</p>
+
+  <h2>Änderungen dieser Richtlinie</h2>
+  <p>Diese Richtlinie kann von Zeit zu Zeit aktualisiert werden. Wesentliche Änderungen werden über App-Updates mitgeteilt.</p>
+
+  <h2>Kontakt</h2>
+  <p><a href="https://x.com/ST_AppSupport" target="_blank">@ST_AppSupport on X</a></p>
+</div>
+
+<!-- ========== FRENCH ========== -->
+<div class="policy" id="policy-fr">
+  <p class="updated">Dernière mise à jour : 21 mai 2026</p>
+
+  <h2>Introduction</h2>
+  <p>FacePlop (l'« Application ») est un jeu iOS développé par le Développeur. Cette Politique de confidentialité explique les informations collectées par l'Application et leur utilisation.</p>
+
+  <h2>Informations collectées</h2>
+  <ul>
+    <li><strong>Photothèque :</strong> Les photos sélectionnées par l'utilisateur lors de la création d'un deck. Elles sont stockées uniquement sur votre appareil et ne sont jamais transmises à des serveurs externes.</li>
+    <li><strong>Données d'utilisation :</strong> Firebase Analytics collecte des données anonymisées telles que les lancements de jeu, les fins de partie et les sélections de deck.</li>
+    <li><strong>Rapports de plantage :</strong> Firebase Crashlytics collecte des informations sur les plantages pour corriger les bugs et améliorer la stabilité.</li>
+    <li><strong>Identifiant publicitaire :</strong> Google AdMob peut utiliser l'identifiant publicitaire (IDFA) de votre appareil pour afficher des publicités pertinentes.</li>
+  </ul>
+
+  <h2>Utilisation des informations</h2>
+  <ul>
+    <li>Améliorer la stabilité et corriger les bugs</li>
+    <li>Améliorer l'expérience utilisateur</li>
+    <li>Afficher des publicités</li>
+  </ul>
+
+  <h2>Services tiers</h2>
+  <ul>
+    <li><a href="https://policies.google.com/privacy" target="_blank">Google AdMob / Firebase (Google LLC)</a></li>
+  </ul>
+
+  <h2>Partage des données</h2>
+  <p>Le Développeur ne vend pas vos données personnelles à des tiers. Les données sont traitées uniquement par les services tiers listés, conformément à leurs propres politiques.</p>
+
+  <h2>Confidentialité des enfants</h2>
+  <p>L'Application est classée 4+ et convient à tous les âges. Nous recommandons une supervision parentale pour les jeunes enfants.</p>
+
+  <h2>Conservation et suppression des données</h2>
+  <p>Les données photos stockées sur votre appareil sont supprimées lors de la désinstallation de l'Application. Pour les données Firebase et AdMob, veuillez consulter les politiques de Google.</p>
+
+  <h2>Modifications de cette politique</h2>
+  <p>Cette politique peut être mise à jour périodiquement. Les modifications importantes seront notifiées via les mises à jour de l'Application.</p>
+
+  <h2>Contact</h2>
+  <p><a href="https://x.com/ST_AppSupport" target="_blank">@ST_AppSupport on X</a></p>
+</div>
+
+</main>
+
+<footer>
+  &copy; 2026 FacePlop. All rights reserved.
+</footer>
+
+<script>
+  function showLang(lang) {
+    document.querySelectorAll('.policy').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.lang-bar button').forEach(el => el.classList.remove('active'));
+    document.getElementById('policy-' + lang).classList.add('active');
+    document.getElementById('btn-' + lang).classList.add('active');
+    document.documentElement.lang = lang === 'zh' ? 'zh-Hans' : lang;
+  }
+
+  showLang('en');
+</script>
+
+</body>
+</html>
