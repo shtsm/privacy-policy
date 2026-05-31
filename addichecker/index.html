@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – AddiChecker / 原材料チェッカー</title>
+  <style>
+    :root {
+      --green:      #4CAF50;
+      --green-dark: #2E7D32;
+      --bg:         #f4f7f4;
+      --card:       #ffffff;
+      --text:       #1a1a1a;
+      --muted:      #6b7280;
+      --border:     #e5e7eb;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 15px;
+    }
+
+    /* ── Header ── */
+    header {
+      background: linear-gradient(135deg, #1B5E20 0%, #2E7D32 60%, #388E3C 100%);
+      color: #fff;
+      padding: 48px 24px 36px;
+      text-align: center;
+    }
+    header .app-icon {
+      width: 72px; height: 72px;
+      border-radius: 18px;
+      background: rgba(255,255,255,0.15);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 36px;
+      margin: 0 auto 16px;
+    }
+    header h1 { font-size: 26px; font-weight: 700; }
+    header p  { font-size: 14px; opacity: 0.8; margin-top: 4px; }
+
+    /* ── Language toggle ── */
+    .lang-toggle {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      padding: 16px 24px;
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+    }
+    .lang-toggle button {
+      padding: 6px 20px;
+      border-radius: 20px;
+      border: 1.5px solid var(--green);
+      background: transparent;
+      color: var(--green);
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .lang-toggle button.active {
+      background: var(--green);
+      color: #fff;
+    }
+
+    /* ── Content ── */
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+
+    .lang-section { display: none; }
+    .lang-section.active { display: block; }
+
+    .updated {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 28px;
+    }
+
+    section {
+      background: var(--card);
+      border-radius: 14px;
+      padding: 24px 28px;
+      margin-bottom: 16px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    }
+
+    section h2 {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--green-dark);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    section h2::before {
+      content: '';
+      display: inline-block;
+      width: 4px; height: 18px;
+      background: var(--green);
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+
+    p { margin-bottom: 12px; }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+    ul:last-child { margin-bottom: 0; }
+    li { margin-bottom: 6px; }
+
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 20px;
+      border: 1.5px solid var(--border);
+      background: var(--bg);
+      color: var(--muted);
+    }
+
+    a { color: var(--green-dark); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    strong { font-weight: 600; }
+
+    footer {
+      text-align: center;
+      font-size: 13px;
+      color: var(--muted);
+      padding: 24px;
+    }
+
+    @media (max-width: 480px) {
+      section { padding: 20px 18px; }
+      header h1 { font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="app-icon">🌿</div>
+  <h1 id="header-title">AddiChecker</h1>
+  <p id="header-sub">Privacy Policy</p>
+</header>
+
+<div class="lang-toggle">
+  <button class="active" onclick="setLang('en')">English</button>
+  <button onclick="setLang('ja')">日本語</button>
+</div>
+
+<!-- ════════════════════════════════════════
+     ENGLISH
+════════════════════════════════════════ -->
+<main>
+<div id="en" class="lang-section active">
+
+  <p class="updated">Last updated: June 1, 2025</p>
+
+  <section>
+    <h2>Overview</h2>
+    <p>AddiChecker ("we", "our", or "the app") helps you check food additives by scanning barcodes or ingredient labels. We are committed to protecting your privacy. This policy explains what information is collected, how it is used, and your choices.</p>
+    <p><strong>We do not create user accounts, and we do not collect or sell your personal information.</strong></p>
+  </section>
+
+  <section>
+    <h2>Information Collected</h2>
+
+    <p><strong>Stored only on your device</strong></p>
+    <ul>
+      <li><strong>Scan history</strong> – up to 500 scanned products, stored locally in the app.</li>
+      <li><strong>Bookmarks</strong> – products you save (up to 5 for free users, unlimited for Pro).</li>
+      <li><strong>App settings</strong> – your Pro purchase status and preferences.</li>
+    </ul>
+    <p>This data never leaves your device and is deleted when you uninstall the app.</p>
+
+    <p><strong>Sent to third-party services</strong></p>
+    <ul>
+      <li><strong>Barcode data</strong> – when you scan a barcode, the barcode number is sent to <a href="https://world.openfoodfacts.org" target="_blank">Open Food Facts</a> to retrieve product information. No other identifying data is sent.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Third-Party Services</h2>
+    <p>The app uses the following third-party SDKs and services. Each has its own privacy policy.</p>
+
+    <p><strong>Firebase Analytics (Google)</strong><br>
+    Collects anonymous usage data such as which features you use and how often. Used to improve the app. Data is aggregated and cannot identify you personally.<br>
+    <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy →</a></p>
+
+    <p><strong>Firebase Crashlytics (Google)</strong><br>
+    Collects crash reports including device model, OS version, and app state at the time of a crash. Used solely to fix bugs. No personal information is included.<br>
+    <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy →</a></p>
+
+    <p><strong>Google AdMob</strong><br>
+    Displays advertisements to free users. AdMob may collect device identifiers and usage data to serve ads. On iOS, you will be shown Apple's App Tracking Transparency (ATT) prompt before any tracking occurs. If you decline, non-personalized ads are shown instead. Ads are completely removed for Pro users.<br>
+    <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy →</a></p>
+
+    <p><strong>Open Food Facts</strong><br>
+    An open-source food database. When scanning a barcode, the barcode number is sent to their API. No personal data is attached to this request.<br>
+    <a href="https://world.openfoodfacts.org/privacy" target="_blank">Open Food Facts Privacy Policy →</a></p>
+
+    <div class="chip-row">
+      <span class="chip">Firebase Analytics</span>
+      <span class="chip">Firebase Crashlytics</span>
+      <span class="chip">Google AdMob</span>
+      <span class="chip">Open Food Facts API</span>
+      <span class="chip">Apple StoreKit</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Camera &amp; Photo Library</h2>
+    <p>The app requests access to your camera to scan barcodes and ingredient labels. If you use the OCR label scan feature, you may also grant access to your photo library. Camera images are processed entirely on-device using Apple's Vision framework and are never uploaded to any server.</p>
+  </section>
+
+  <section>
+    <h2>In-App Purchases</h2>
+    <p>The Pro upgrade is a one-time purchase handled entirely by Apple through StoreKit. We do not receive, store, or process any payment information. Please refer to <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a> for details on purchase data.</p>
+  </section>
+
+  <section>
+    <h2>App Tracking Transparency (ATT)</h2>
+    <p>On iOS 14.5 and later, you will be shown Apple's ATT permission prompt before any advertising tracking begins. You may grant or deny this at any time. Denying permission will result in non-personalized ads being shown. You can change this setting at any time in <strong>Settings → Privacy &amp; Security → Tracking</strong>.</p>
+  </section>
+
+  <section>
+    <h2>Children's Privacy</h2>
+    <p>This app is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided personal information, please contact us and we will promptly delete it.</p>
+  </section>
+
+  <section>
+    <h2>Data Retention &amp; Deletion</h2>
+    <p>All data stored on your device (history, bookmarks, settings) is deleted when you uninstall the app. Anonymous analytics and crash data held by Firebase is retained according to Google's standard retention policies. You may request deletion by contacting us.</p>
+  </section>
+
+  <section>
+    <h2>Changes to This Policy</h2>
+    <p>We may update this privacy policy from time to time. Changes will be reflected by an updated "Last updated" date at the top of this page. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>If you have any questions about this privacy policy, please contact us at:</p>
+    <p><a href="https://www.cstash.net">https://www.cstash.net</a></p>
+  </section>
+
+</div>
+
+<!-- ════════════════════════════════════════
+     JAPANESE
+════════════════════════════════════════ -->
+<div id="ja" class="lang-section">
+
+  <p class="updated">最終更新日：2025年6月1日</p>
+
+  <section>
+    <h2>はじめに</h2>
+    <p>原材料チェッカー（AddiChecker、以下「本アプリ」）は、バーコードスキャンや原材料ラベルの読み取りによって、食品添加物を手軽に確認できるアプリです。本アプリを提供する開発者（以下「私たち」）は、お客様のプライバシーを尊重し保護することに努めています。本ポリシーでは、どのような情報が収集されるか、どのように使用されるか、そしてお客様の選択肢について説明します。</p>
+    <p><strong>本アプリはユーザーアカウントを作成せず、個人情報の収集・販売を行いません。</strong></p>
+  </section>
+
+  <section>
+    <h2>収集する情報</h2>
+
+    <p><strong>お使いの端末内にのみ保存される情報</strong></p>
+    <ul>
+      <li><strong>スキャン履歴</strong> – スキャンした商品（最大500件）をアプリ内にローカル保存します。</li>
+      <li><strong>ブックマーク</strong> – お気に入りに登録した商品（無料プランは最大5件、Proプランは無制限）。</li>
+      <li><strong>アプリ設定</strong> – Pro購入状態やアプリの設定情報。</li>
+    </ul>
+    <p>これらのデータは端末外に送信されることはなく、アプリをアンインストールすると削除されます。</p>
+
+    <p><strong>外部サービスに送信される情報</strong></p>
+    <ul>
+      <li><strong>バーコード番号</strong> – バーコードをスキャンした際、商品情報を取得するためにバーコード番号が <a href="https://world.openfoodfacts.org" target="_blank">Open Food Facts</a> へ送信されます。それ以外の個人を特定できる情報は送信されません。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>利用している外部サービス</h2>
+    <p>本アプリは以下のサードパーティSDK・サービスを使用しています。それぞれに独自のプライバシーポリシーがあります。</p>
+
+    <p><strong>Firebase Analytics（Google）</strong><br>
+    どの機能をどの程度使用したかなど、匿名の利用状況データを収集します。アプリの改善のみに使用され、個人を特定することはできません。<br>
+    <a href="https://firebase.google.com/support/privacy" target="_blank">Firebaseプライバシーポリシー →</a></p>
+
+    <p><strong>Firebase Crashlytics（Google）</strong><br>
+    クラッシュ発生時の端末モデル、OSバージョン、アプリの状態などのクラッシュレポートを収集します。バグ修正のみを目的としており、個人情報は含まれません。<br>
+    <a href="https://firebase.google.com/support/privacy" target="_blank">Firebaseプライバシーポリシー →</a></p>
+
+    <p><strong>Google AdMob</strong><br>
+    無料ユーザー向けに広告を表示します。AdMobは広告配信のために端末識別子や利用データを収集する場合があります。iOS では広告トラッキングの前に Apple の ATT（App Tracking Transparency）許可ダイアログが表示されます。拒否した場合は、ターゲティングなしの広告が表示されます。Proプランのユーザーには広告は一切表示されません。<br>
+    <a href="https://policies.google.com/privacy" target="_blank">Googleプライバシーポリシー →</a></p>
+
+    <p><strong>Open Food Facts</strong><br>
+    オープンソースの食品データベースです。バーコードスキャン時に、バーコード番号がAPIへ送信されます。個人データは付加されません。<br>
+    <a href="https://world.openfoodfacts.org/privacy" target="_blank">Open Food Factsプライバシーポリシー →</a></p>
+
+    <div class="chip-row">
+      <span class="chip">Firebase Analytics</span>
+      <span class="chip">Firebase Crashlytics</span>
+      <span class="chip">Google AdMob</span>
+      <span class="chip">Open Food Facts API</span>
+      <span class="chip">Apple StoreKit</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>カメラ・フォトライブラリへのアクセス</h2>
+    <p>本アプリはバーコードや原材料ラベルのスキャンのためにカメラへのアクセスを要求します。ラベルスキャン機能を使用する場合は、フォトライブラリへのアクセスを求めることもあります。カメラ映像はAppleのVisionフレームワークを使って端末上のみで処理され、外部サーバーへのアップロードは行われません。</p>
+  </section>
+
+  <section>
+    <h2>アプリ内購入</h2>
+    <p>Proプランへのアップグレードは、Appleが提供するStoreKitを通じた買い切り型の一回限りの購入です。私たちは支払い情報を受け取ったり保存したりすることはありません。購入データの詳細については <a href="https://www.apple.com/jp/legal/privacy/" target="_blank">Appleのプライバシーポリシー</a> をご参照ください。</p>
+  </section>
+
+  <section>
+    <h2>App Tracking Transparency（ATT）</h2>
+    <p>iOS 14.5以降では、広告トラッキングが開始される前にAppleのATT許可ダイアログが表示されます。許可・拒否はいつでも変更できます。拒否した場合は、ターゲティングなしの広告が表示されます。設定は <strong>設定 → プライバシーとセキュリティ → トラッキング</strong> からいつでも変更可能です。</p>
+  </section>
+
+  <section>
+    <h2>お子様のプライバシー</h2>
+    <p>本アプリは13歳未満のお子様を対象としていません。13歳未満のお子様から意図的に個人情報を収集することはありません。お子様が個人情報を提供したと思われる場合は、お問い合わせください。速やかに削除対応いたします。</p>
+  </section>
+
+  <section>
+    <h2>データの保持と削除</h2>
+    <p>端末に保存されたデータ（履歴、ブックマーク、設定）は、アプリをアンインストールすることで削除されます。Firebaseが保持する匿名の分析・クラッシュデータはGoogleの標準的な保持ポリシーに従います。削除をご希望の場合は下記連絡先までご連絡ください。</p>
+  </section>
+
+  <section>
+    <h2>ポリシーの変更</h2>
+    <p>本プライバシーポリシーは随時更新される場合があります。変更があった場合は、ページ上部の「最終更新日」を更新します。変更後も本アプリを継続してご利用いただいた場合、更新後のポリシーに同意したものとみなします。</p>
+  </section>
+
+  <section>
+    <h2>お問い合わせ</h2>
+    <p>本プライバシーポリシーに関するご質問は、下記までご連絡ください。</p>
+    <p><a href="https://www.cstash.net">https://www.cstash.net</a></p>
+  </section>
+
+</div>
+</main>
+
+<footer>
+  &copy; 2026 Shohei Tsushima. All rights reserved.
+</footer>
+
+<script>
+  const i18n = {
+    en: { title: 'AddiChecker',    sub: 'Privacy Policy' },
+    ja: { title: '原材料チェッカー', sub: 'プライバシーポリシー' }
+  };
+
+  function setLang(lang) {
+    document.querySelectorAll('.lang-section').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.lang-toggle button').forEach(btn => btn.classList.remove('active'));
+    document.getElementById(lang).classList.add('active');
+    document.querySelector(`.lang-toggle button[onclick="setLang('${lang}')"]`).classList.add('active');
+    document.documentElement.lang = lang;
+    document.getElementById('header-title').textContent = i18n[lang].title;
+    document.getElementById('header-sub').textContent   = i18n[lang].sub;
+    document.title = i18n[lang].title + ' – Privacy Policy';
+  }
+</script>
+
+</body>
+</html>
